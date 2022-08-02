@@ -27,7 +27,7 @@ class JobProfile extends StatelessWidget {
                     color: Colors.white,
                     boxShadow: [
                       BoxShadow(
-                        spreadRadius: -5,
+                        spreadRadius: -2,
                         blurRadius: 4,
                       )
                     ],
