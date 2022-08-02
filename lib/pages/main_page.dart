@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:job_search_flutter_ui/pages/main_page_proparty/app_bar.dart';
+import 'package:job_search_flutter_ui/pages/main_page_proparty/job_profile.dart';
+import 'package:job_search_flutter_ui/pages/main_page_proparty/list_menu.dart';
 import 'package:job_search_flutter_ui/pages/main_page_proparty/search_option.dart';
 
 class MainPage extends StatefulWidget {
@@ -38,6 +40,14 @@ class _MainPageState extends State<MainPage> {
                 height: 15,
               ),
               SearchOption(),
+              SizedBox(
+                height: 15,
+              ),
+              ListMenu(),
+              SizedBox(
+                height: 15,
+              ),
+JobProfile(),
             ],
           ),
         )
